@@ -1,0 +1,11 @@
+Update sunny for Shift preference.
+
+1.	Requirements gathering : As a food delivery app, We need to gather information. We need to incorporate the opportunities. will plan for costs and layout the 
+2.	Design the requirements : we will design for layout of app. The things need to be present in app ,Like- Maps,Delivery Details,Estimated time, Feedback details,customer support help ,etc.
+3.	Construction/ iteration :Using minimal functionality we will 
+4.	Testing/ Quality assurance :
+5.	Deployment :
+6.	Feedback :
+
+
+git config --global user.name "

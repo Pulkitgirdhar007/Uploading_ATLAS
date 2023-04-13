@@ -1,0 +1,222 @@
+How to config the GIT
+
+git config --global user.name "pulkit"
+
+git config --global user.email "
+
+To check the config 
+
+git config --global user.name
+
+--- Now to move to diff Folder , We use the below command 
+
+cd Doc (Then press tab)
+
+cd.. (Enter) -- This will come back to previous folder.
+
+dir (press enter) will help to know the directory
+
+git Status - Used for Track the status of the Repository
+
+if there is space we have to put file name in "    ".
+
+git commit -m "We created this GIT DEMO file and saved"  - This command help to track changes
+
+git log  - To check the details of command for person who made changes.
+
+git rm --cached  - To remove the file from Git
+
+Branches are logical division of folders.
+git branch (this will show the master/main branch)
+
+git branch (new name) will create a new branch and this works if we have added files to it {git add .}
+
+to checkout/switch to new one branch we use {git checkout (name of branch)}
+
+git merger {to be used in merging the branches}
+
+To delete the branch:git branch --delete branch name
+
+-delete a folder command :git rm -r /FOLDERNAME
+
+To unmerge : git unmerge Branchname
+
+To create ignored file: create with extention .gitignore and enter file details their
+
+docker ps
+docker --version 
+docker ps -a
+docker images
+to run images in docker
+docker run python
+check container : docker ps
+docker run --name python3 -it -d python\
+How to use now? :docker exec -it 21600b55b7fff61e1012956c8048601243a1385a1c6cbd663961d00069e469ef python3
+docker stop 
+
+How to install Docker
+
+https://www.youtube.com/watch?v=AneS8ulQeKE
+ 
+
+
+
+
+
+Microsoft Windows [Version 10.0.19044.2728]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\gipulkit>git --version
+git version 2.38.1.windows.1
+
+C:\Users\gipulkit>git config --global user.name "pulkit"
+
+C:\Users\gipulkit>git config --global user.email "pulkitgirdhar007@gmail.com"
+
+C:\Users\gipulkit>git config --global user.name
+pulkit
+
+C:\Users\gipulkit>git config --global user.email
+pulkitgirdhar007@gmail.com
+
+C:\Users\gipulkit>git config --global user.email
+pulkitgirdhar007@gmail.com
+
+C:\Users\gipulkit>git config --global user.name
+pulkit
+
+C:\Users\gipulkit>cd Documents
+
+C:\Users\gipulkit\Documents>cd git learning
+
+C:\Users\gipulkit\Documents\Git Learning>cd..
+
+C:\Users\gipulkit\Documents>cd g
+The system cannot find the path specified.
+
+C:\Users\gipulkit\Documents>cd "Git Learning"
+
+C:\Users\gipulkit\Documents\Git Learning>cd..
+
+C:\Users\gipulkit\Documents>cd "Git Learning"
+
+C:\Users\gipulkit\Documents\Git Learning>dir
+ Volume in drive C is OSDisk
+ Volume Serial Number is 4859-1709
+
+ Directory of C:\Users\gipulkit\Documents\Git Learning
+
+04/01/2023  05:47 PM    <DIR>          .
+04/01/2023  05:47 PM    <DIR>          ..
+04/01/2023  05:47 PM                 0 Git Demo.txt
+               1 File(s)              0 bytes
+               2 Dir(s)  175,722,745,856 bytes free
+
+C:\Users\gipulkit\Documents\Git Learning>git init
+Initialized empty Git repository in C:/Users/gipulkit/Documents/Git Learning/.git/
+
+C:\Users\gipulkit\Documents\Git Learning>dir
+ Volume in drive C is OSDisk
+ Volume Serial Number is 4859-1709
+
+ Directory of C:\Users\gipulkit\Documents\Git Learning
+
+04/01/2023  05:59 PM    <DIR>          .
+04/01/2023  05:59 PM    <DIR>          ..
+04/01/2023  05:47 PM                 0 Git Demo.txt
+               1 File(s)              0 bytes
+               2 Dir(s)  175,725,355,008 bytes free
+
+C:\Users\gipulkit\Documents\Git Learning>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Git Demo.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\gipulkit\Documents\Git Learning>git add Git Demo.txt
+fatal: pathspec 'Git' did not match any files
+
+C:\Users\gipulkit\Documents\Git Learning>git add GitDemo.txt
+fatal: pathspec 'GitDemo.txt' did not match any files
+
+C:\Users\gipulkit\Documents\Git Learning>Git add "Git Demo.txt"
+
+C:\Users\gipulkit\Documents\Git Learning>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Git Demo.txt
+
+
+C:\Users\gipulkit\Documents\Git Learning> git commit -m "We created this GIT DEMO file and saved"
+[master (root-commit) 5e08db3] We created this GIT DEMO file and saved
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Git Demo.txt
+
+C:\Users\gipulkit\Documents\Git Learning>git commit -m "We created this GIT DEMO file and saved"
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\gipulkit\Documents\Git Learning>git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        New Text Document.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\gipulkit\Documents\Git Learning>git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+C:\Users\gipulkit\Documents\Git Learning>git add .
+
+C:\Users\gipulkit\Documents\Git Learning>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   New Text Document.txt
+
+
+C:\Users\gipulkit\Documents\Git Learning>git commit -m "Added a NEW TEXT document"
+[master 54dbb4c] Added a NEW TEXT document
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 New Text Document.txt
+
+C:\Users\gipulkit\Documents\Git Learning>git log
+commit 54dbb4c83310529c4618c8ac4506efa1b3aa2fa5 (HEAD -> master)
+Author: pulkit <pulkitgirdhar007@gmail.com>
+Date:   Sat Apr 1 18:22:29 2023 +0530
+
+    Added a NEW TEXT document
+
+commit 5e08db35a49c7db80c577b8f78a4147b4ffc4291
+Author: pulkit <pulkitgirdhar007@gmail.com>
+Date:   Sat Apr 1 18:14:51 2023 +0530
+
+    We created this GIT DEMO file and saved
+
+C:\Users\gipulkit\Documents\Git Learning>git rm --cached "Git Demo.txt"
+rm 'Git Demo.txt'
+
+C:\Users\gipulkit\Documents\Git Learning>git add .
+
+C:\Users\gipulkit\Documents\Git Learning>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\gipulkit\Documents\Git Learning>
+
+C:\Users\gipulkit\Documents\Git Learning>
+
+C:\Users\gipulkit\Documents\Git Learning>

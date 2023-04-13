@@ -1,0 +1,213 @@
+::Water fall model:
+In this, the whole process of software development is
+divided into separate phases.The outcome of one phase acts as the input for the next phase
+sequentially.
+
+Where it is required:
+The requirements and basics are clear and fixed.
+Product definition is stable.
+Technology is understood and is not dynamic.
+Short projects, where Ample resources with required expertise are available to support the
+product.
+
+It is simple and easy to use. The stages are defined clearly.
+But as a cons, its poor model for complex jobs.The progress measures within stages.
+
+::Iterative Model::
+Iterative process starts with a simple implementation of a subset of
+the software requirements and iteratively enhances the evolving
+versions until the full system is implemented.
+*At each iteration all the functions and capabilities are added.
+*In this model, Requirements need to be clear.
+*As some functions can be added with time,but this needs to be done within market constraint.
+*This is somewhat risky, but we can manage the risk and not as much cost effective.
+*As an advantage- we can get results periodically.
+*Parallel development and progress can be measured
+*It can be used in changing requirements.
+*It is used in Goverment Secret missions. Some critical projets or missions.
+
+*The cost can vary from each functional change.
+*As there might me requirement for more resources hence this requires more management complexity.
+*End of the project is not known as there are continues functional and developmental changes. Hence its riskier,
+*Addition to this , It requires Skilled risk measuring resources.
+
+::Spiral Model::
+>>Combination of both iteration and Waterfall.
+>>It has four phases. 1.Identification 2.Design 3.Construct or Build. 4.Evaliation and Risk analysis
+*This phase starts with gathering the business requirements in the baseline spiral and understanding the system requirements by continuous communication between the customer
+and the system analyst.
+*conceptual design in the baseline spiral and involves architectural design, logical design
+of modules, physical product design and the final design in the subsequent spirals.
+*Construct and Build are done with considering customer feedbacks.
+
+*This model is applicable where Budget and risk consr=traint are important.
+*Long term project commitment because of potential changes to economic priorities as
+the requirements change with time.
+*Requirements are complex and need evaluation to get clarity.
+
+Pros
+1.Changing requirements can be accommodated.
+2.Development can be divided into smaller parts and the risky parts can
+be developed earlier which helps in better risk management.
+3.Requiremets are /Can be captured more accurately.
+Cons
+1.Management is complex.
+2.End not known
+3.Not suitable for small or low risk projects and could be expensive for
+small projects.
+4. Excessive documentations as there are last number of intermediate stages.
+
+
+
+::V Model::
+The V model is an SDLC model where execution of processes happens in a
+sequential manner in a V shape It is also known as Verification and
+Validation model
+*V Model is an extension of the waterfall model and is based on the
+association of a testing phase for each corresponding development stage
+*Model, the corresponding testing phase of the development
+phase is planned in parallel
+*Hence one side is verification and other side is validation.(Design and Testing)
+*V Model application is almost the same as the waterfall model, as both the
+models are of sequential type. 
+*Requirements are well defined, clearly documented and fixed.
+*Technology is not dynamic and is well understood by the project team.
+*There are no ambiguous or undefined requirements.
+*The project is short.
+
+*This model is not flexible.
+*It is diciplined model but not dynamic.So no frequent changes can be mad.
+*Works well for smaller projects where requirements are very well
+understood.
+*It is easy to manage due to rigidity.simple and easy to understand.
+*It isn't suitable for complex and objects orientied projects.
+*No working software is produced until late during the life cycle.
+*Its difficult to make changes once testing is started.
+
+
+::RAD MODEL::Also known as Rapid application development::
+>>this software development methodology that uses minimal planning in favor of rapid prototyping
+>>the functional modules are developed in parallel as
+prototypes and are integrated to make the complete product for faster
+product delivery
+>>No Preplanning is required.
+>>This Model follows Iterative and Incremental model.
+>>The most important aspect for this model to be successful is to make sure
+that the prototypes developed are REUSEABLE.
+>>Business Modelling- 
+>>Data Modelling-
+>>Process Modelling-
+>>Application Generation-
+>>Testing Turnover
+
+*Changing Requirements can be accomodated.
+*Process can be measured.
+*Productivity and Progress can be measured witin short times.
+*Encourages CS feedback
+*Increases Reuseability.
+*Integration from Beginning solves lot of integration issues.
+Cons:
+*Requires skilled developers.
+*Complex Managibility
+*Suitable where short developments are required.
+*Cost include in Modelling and autmated code generation is very high.
+
+::Agile Model::
+*Each project needs different methods to be tailored to be best suit.
+*Tasks are devided in small time frames to deliver specific features.Time frames are also called as time Boxes.
+*Iterative approach is taken and working software build is delivered
+after each iteration.
+
+Pros
+- Realistic approach to SDLC
+- This promotes teamwork and cross training.
+- Suitable for changing requirements.
+- Minimal rules ,documentation easily deployed.
+- Easy to manage and flexible to developers.
+- Enables concurrent development and delivery within an overall planned context.
+Cons
+- Risk of mainting and extensibility.
+- Agile PM practice and agile leader dependent model,Without this it wont work.
+- Depends pn customer interations.If customer is not clear, team can be
+driven in the wrong direction.
+- Transfer of technology to new team members may be quite challenging due to
+lack of documentation.
+- There is a very high individual dependency, since there is minimum
+documentation generated.
+
+Some Methodologies of Agile>>>>>>>>>>
+1.Scrum
+2.Kanban
+3.Hybrid
+4.Bimodal
+5.Lean
+6.XP
+7.Crystal
+
+
+::SCRUM Project management technique {Agile Model methodology}::
+
+*Scrum project management is a technique that prioritizes iterative and
+incremental product delivery through constant feedback and collaborative
+decision making
+*Scrum lead by - Scrum master is accountable for eliminating obstacles and ensuring timely completion of
+tasks. The team holds daily meetings to discuss allotted work and obstacles
+*Entire Scope of work is broken down into short development cycles known as SPRINTS.
+*Duration of sprint is from one to four weeks.
+*Team should follow workplan for each sprint.
+*People have predefined roles.
+
+Pros
+-Efficient and quick mode to deliver project.
+-Feedback are easy due to shorter durations of sprimnts.
+-Efforts are visible in Scrum meetings.
+-Works in fast moving projects ,Basically changes are frequesnt.
+-Develpoments are coded and tested during sprint review.
+
+Cons
+-No end date.hence it ofent leads to scope creep.
+-Scrum requires cooperation and hence there might be project dfaliures.
+-it requires experienced team members,to maintain quality.
+-hence for hard quality, there might be aggressive and hard testing process which is followed. This sometimes bring the project into faliure.
+
+
+
+
+
+
+OSI MODEL:
+
+Open System Interconnection,
+
+This is the conceptual famework ,which describes how data travels from networks.
+
+>>Physical layer
+>>Data Layer
+>>Network layer
+>>Transport layer
+>>Session Layer
+>>Presentation layer
+>>Application Layer
+
+
+
+TCP/IP model :
+Transmission Control Protocol/Internet Protocol.
+The TCP/IP model is a concise version of the OSI model. It contains four layers, unlike the seven layers in the OSI model.
+
+*Application Layer-It is responsible for end-to-end communication and error-free delivery of data. It shields the upper-layer applications from the complexities of data. (HTTP/SSH/NTP)
+*Transport Layer(TCP/UDP)-It defines the protocols which are responsible for the logical transmission of data over the entire network. (TCP/UDP)
+*Network/Internet Layer(IP)-This layer defines the protocols which are responsible for the logical transmission of data over the entire network. (IP/ICMP/ARP)
+*Data Link Layer (MAC) -The packet’s network protocol type, in this case TCP/IP, is identified by the data-link layer.Error prevention and “framing” are also provided by the data-link layer.
+*Physical Layer - It is a group of applications requiring network communications. This layer is responsible for generating the data and requesting connections.
+
+
+>>Media Access Control (MAC) address - It is a physical address that works at the data link layer of the OSI model.
+Sr.No.	Key	                       MAC Address	                                                                           IP Address
+1	Definition	:MAC Address stands for Media Access Control Address.	                IP Address stands for Internet Protocol Address.
+2	Usage	        :MAC Address ensure that physical address of the computer is unique.	IP Address is a logical address of the computer and is used to uniquely locate computer connected via a network.
+3	Format	        :MAC Address is of six byte hexadecimal address.	                IP Address is of 4 bytes or of 16 bytes.
+4	Access Protocol	:MAC Address can be retrieved using ARP protocol.	                IP Address can be retrieved using RARP protocol.
+5	Provider	:Chip maker manufacturer provides the MAC Address.	                Internet Service Provider, ISP provides the IP Address.
+
+
